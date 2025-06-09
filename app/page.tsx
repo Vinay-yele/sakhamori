@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 "use client"
 
 import { useState, useEffect } from "react"
@@ -10,7 +11,6 @@ import {
   Cloud,
   Dumbbell,
   Bike,
-  Code,
   Zap,
   Github,
   Linkedin,
@@ -21,6 +21,7 @@ import {
   Server,
   Wrench,
 } from "lucide-react"
+import Image from "next/image"
 
 export default function PortfolioPage() {
   const [skillProgress, setSkillProgress] = useState({
@@ -276,7 +277,7 @@ export default function PortfolioPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <Card className="bg-gray-800/50 border-purple-500/30 backdrop-blur-sm overflow-hidden">
             <div className="aspect-square bg-gradient-to-br from-purple-600 to-blue-600 flex items-center justify-center">
-              <img
+              <Image
                 src="/bike.jpeg"
                 alt="Bike"
                 className="object-cover w-full h-full"
@@ -292,7 +293,7 @@ export default function PortfolioPage() {
 
             <Card className="bg-gray-800/50 border-purple-500/30 backdrop-blur-sm overflow-hidden">
             <div className="aspect-square bg-gradient-to-br from-yellow-500 to-purple-600 flex items-center justify-center">
-              <img
+              <Image
               src="/smart.jpeg"
               alt="Smart"
               className="object-cover w-full h-full"
@@ -308,7 +309,7 @@ export default function PortfolioPage() {
 
             <Card className="bg-gray-800/50 border-purple-500/30 backdrop-blur-sm overflow-hidden">
             <div className="aspect-square bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center">
-              <img
+              <Image
               src="/pool.jpeg"
               alt="Pool"
               className="object-cover w-full h-full"
@@ -324,7 +325,7 @@ export default function PortfolioPage() {
 
             <Card className="bg-gray-800/50 border-purple-500/30 backdrop-blur-sm overflow-hidden">
               <div className="aspect-square bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center">
-                <img
+                <Image
                   src="/gf.jpeg"
                   alt="Girlfriend"
                   className="object-cover w-full h-full"
