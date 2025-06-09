@@ -151,7 +151,7 @@ export default function PortfolioPage() {
         className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 text-lg"
           >
         <Dumbbell className="w-5 h-5 mr-2" />
-        See what I've built... and lifted 💪
+        See what I&apos;ve built... and lifted 💪
           </Button>
         </div>
       </section>
@@ -166,9 +166,9 @@ export default function PortfolioPage() {
             <Card className="bg-gray-800/50 border-purple-500/30 backdrop-blur-sm">
               <CardContent className="p-8">
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  After years of breaking servers and bending GPUs to my will, I pursued a Master's in Prompt
-                  Engineering — because I wanted to talk to AIs, not just build them. When I'm not crafting the perfect
-                  prompt or deadlifting data pipelines, you'll find me on my Meteor 350 (aka "Code Rider") or at the
+                  After years of breaking servers and bending GPUs to my will, I pursued a Master&apos;s in Prompt
+                  Engineering — because I wanted to talk to AIs, not just build them. When I&apos;m not crafting the perfect
+                  prompt or deadlifting data pipelines, you&apos;ll find me on my Meteor 350 (aka &quot;Code Rider&quot;) or at the
                   gym, where I bench press bugs out of my code. They say I once trained an LLM so well, it refused to
                   hallucinate. Legend has it, it still talks back.
                 </p>
@@ -286,7 +286,7 @@ export default function PortfolioPage() {
             </div>
             <CardContent className="p-4">
               <p className="text-gray-300 text-sm text-center">
-                "When I'm not lifting weights, I'm lifting model accuracy."
+                &quot;When I&apos;m not lifting weights, I&apos;m lifting model accuracy.&quot;
               </p>
             </CardContent>
           </Card>
@@ -302,7 +302,7 @@ export default function PortfolioPage() {
             </div>
             <CardContent className="p-4">
               <p className="text-gray-300 text-sm text-center">
-              "Brains, brawn, and bandwidth – the holy trinity."
+              &quot;Brains, brawn, and bandwidth – the holy trinity.&quot;
               </p>
             </CardContent>
             </Card>
@@ -318,7 +318,7 @@ export default function PortfolioPage() {
             </div>
             <CardContent className="p-4">
               <p className="text-gray-300 text-sm text-center">
-              "Sometimes you need to dive deep—into code or the pool."
+              &quot;Sometimes you need to dive deep—into code or the pool.&quot;
               </p>
             </CardContent>
             </Card>
@@ -334,7 +334,7 @@ export default function PortfolioPage() {
               </div>
               <CardContent className="p-4">
                 <p className="text-gray-300 text-sm text-center">
-                  "My friend says my code gets more attention than she does. She’s not wrong."
+                  &quot;My friend says my code gets more attention than she does. She’s not wrong.&quot;
                 </p>
               </CardContent>
             </Card>
@@ -378,7 +378,7 @@ export default function PortfolioPage() {
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="bg-gray-800/50 border-purple-500/30 backdrop-blur-sm">
               <CardContent className="p-6">
-                <p className="text-gray-300 italic mb-4">"{testimonial.quote}"</p>
+                <p className="text-gray-300 italic mb-4">&quot;{testimonial.quote}&quot;</p>
                 <div className="text-right">
                   <p className="text-white font-semibold">{testimonial.name}</p>
                   <p className="text-gray-400 text-sm">{testimonial.role}</p>
@@ -394,7 +394,7 @@ export default function PortfolioPage() {
         <div className="text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Wanna Collab or Bench Together?</h2>
           <p className="text-xl text-gray-300 mb-12">
-            Let's build something epic while discussing the perfect deadlift form
+            Let&apos;s build something epic while discussing the perfect deadlift form
           </p>
 
           <div className="flex justify-center gap-6 mb-12">
