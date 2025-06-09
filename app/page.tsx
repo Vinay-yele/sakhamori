@@ -321,6 +321,22 @@ export default function PortfolioPage() {
               </p>
             </CardContent>
             </Card>
+
+            <Card className="bg-gray-800/50 border-purple-500/30 backdrop-blur-sm overflow-hidden">
+              <div className="aspect-square bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center">
+                <img
+                  src="/gf.jpeg"
+                  alt="Girlfriend"
+                  className="object-cover w-full h-full"
+                  style={{ borderRadius: 0 }}
+                />
+              </div>
+              <CardContent className="p-4">
+                <p className="text-gray-300 text-sm text-center">
+                  "My friend says my code gets more attention than she does. She’s not wrong."
+                </p>
+              </CardContent>
+            </Card>
         </div>
       </section>
 
